@@ -4,6 +4,8 @@ import '../NewsCard.css'
 
 function NewsCard({ title, publisherName, url, published_date, isSwipeMode }) {
 
+
+
   const manipulateContainerSizeWithTheScreenSizeUsingisSwipeMode = () =>
   {
     if(isSwipeMode === false)

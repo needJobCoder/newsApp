@@ -19,7 +19,12 @@ function App() {
   const [isSwipeMode, setIsSwipeMode] = useState(true);
   
   const [data, setData] = useState([{}]);
-  
+
+  const printData = (data) =>
+  {
+    console.log(data);
+  }
+
   useEffect(()=> {
     setIsSwipeMode(false);
     const userAgent = navigator.userAgent.toLowerCase();
@@ -50,9 +55,9 @@ function App() {
     
   
   }
+
   
- 
-  
+
   , [])
   
   
